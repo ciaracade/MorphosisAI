@@ -1,14 +1,21 @@
 'use client';
 
-import { ReactFlow, Background, Controls } from "@xyflow/react";
+import { Panel, ReactFlow, Background, Controls, type ColorMode } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
+import { useState } from 'react';
+import { ModeToggle } from './canvas/theme-toggle';
 
 export default function Workspace() {
+  const [colorMode, setColorMode] = useState<ColorMode>("dark");
+
   return (
-    <div style={{ height: "100%", width: "100%"}}>
-      <ReactFlow>
+    <div style={{ height: "100%", width: "100%" }}>
+      <ReactFlow colorMode={colorMode}>
         <Background />
         <Controls />
+        <Panel position="top-right">
+          <ModeToggle onThemeChange={setColorMode} />
+        </Panel>
       </ReactFlow>
     </div>
   );
