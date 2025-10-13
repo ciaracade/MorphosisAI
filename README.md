@@ -8,6 +8,7 @@
 
 - [Mockaroo](https://mockaroo.com/): lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.
 - [ReactFlow](https://reactflow.dev/): A customizable React component for building node-based editors and interactive diagrams
+- [Zustand](https://zustand.docs.pmnd.rs/): A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy API based on hooks, isn't boilerplatey or opinionated.
 
 ## Stretch goals
 - integrate with other pub/sub messaging softwares like [BlazingMQ](https://github.com/bloomberg/blazingmq).
