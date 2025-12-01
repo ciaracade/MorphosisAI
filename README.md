@@ -13,3 +13,9 @@
 
 ## Stretch goals
 - integrate with other pub/sub messaging softwares like [BlazingMQ](https://github.com/bloomberg/blazingmq).
+
+## Notes:
+- https://craftinginterpreters.com/parsing-expressions.html
+- https://cefboud.com/posts/monkafka/
+- https://cefboud.com/posts/exploring-kafka-internals/
+- https://kafka.apache.org/protocol
